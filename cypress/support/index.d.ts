@@ -11,6 +11,11 @@ declare namespace Cypress {
        */
   
       token(): void
+
+       /**
+       * @example cy.postTweet()
+       */
+        postTweet(): void
   
     }
   }

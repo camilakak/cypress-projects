@@ -210,6 +210,18 @@ Cypress.Commands.add('login', () => {
     })
   })
 
+  Cypress.Commands.add('postTweet', (tweetText) => {
+
+    cy.get('.new-tweet textarea').type(tweetText)
+
+    cy.get('.new-tweet-action button').click()
+
+    cy.wait(6000)
+
+    cy.get('p').first().should("be.visible").and('have.text', tweetText)
+  
+  })
+
   
 
 
