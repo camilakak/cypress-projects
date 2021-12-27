@@ -3,5 +3,7 @@
     "env": {
         "apiUrl": "https://twitter-clone-example-backend.herokuapp.com/"
     },
-    "baseUrl": "https://twitter-clone-example.herokuapp.com"
+    "baseUrl": "https://twitter-clone-example.herokuapp.com",
+    "viewportWidth": 1440,
+    "viewportHeight": 900
 }
