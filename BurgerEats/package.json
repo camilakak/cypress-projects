@@ -1,0 +1,14 @@
+{
+  "name": "burgereats",
+  "version": "1.0.0",
+  "description": "Projeto de automacao de testes de sistema de cadastro para servico de entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Camila Abreu",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.2.0"
+  }
+}
